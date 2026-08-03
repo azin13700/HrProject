@@ -1,0 +1,169 @@
+// ============================================================
+// ✅ TABLE - سایزهای بزرگتر
+// ============================================================
+
+$primary: #0055a4;
+$primary-light: #1a6bb8;
+$primary-dark: #003d7a;
+$primary-gradient: linear-gradient(135deg, #0055a4 0%, #1a6bb8 100%);
+$accent: #00a3d6;
+$gold: #d4a843;
+$white: #ffffff;
+$bg: #f1f5f9;
+$bg-card: #ffffff;
+$text-dark: #1a2a3a;
+$text-muted: #5a6a7a;
+$text-light: #8a9aaa;
+$border: #dce4ec;
+$shadow: 0 8px 30px rgba(0, 85, 164, 0.06);
+$shadow-hover: 0 12px 40px rgba(0, 85, 164, 0.1);
+$success: #10b981;
+$danger: #ef4444;
+$warning: #f59e0b;
+$info: #3b82f6;
+$purple: #7c3aed;
+$rose: #f43f5e;
+$emerald: #10b981;
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  
+    .header-title {
+      h1 {
+        margin: 0;
+        font-size: 26px;
+        font-weight: 700;
+        color: #1e293b;
+      }
+  
+      p {
+        margin-top: 6px;
+        color: #94a3b8;
+        font-size: 14px;
+      }
+    }
+  
+    .ant-btn {
+      height: 44px;
+      border-radius: 10px;
+      font-weight: 600;
+      padding: 0 22px;
+    }
+  }
+
+
+  .filters-section {
+    background: #fff;
+    border: 1px solid #edf2f7;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 25px;
+  
+    .filters-row {
+      display: flex;
+      gap: 16px;
+      align-items: end;
+    }
+  
+    .ant-input,
+    .ant-select-selector {
+      height: 42px !important;
+      border-radius: 8px !important;
+    }
+  }
+
+  .ant-table {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .04);
+  
+    .ant-table-thead>tr>th {
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 700;
+      font-size: 14px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+  
+    .ant-table-tbody>tr>td {
+      padding: 18px 16px;
+      border-bottom: 1px solid #f1f5f9;
+    }
+  
+    .ant-table-tbody>tr:hover>td {
+      background: #f8fbff !important;
+    }
+  }
+
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  
+    .ant-avatar {
+      width: 42px;
+      height: 42px;
+      font-size: 16px;
+      background: #1677ff;
+    }
+  
+    .first-name,
+    .last-name {
+      font-weight: 600;
+      font-size: 15px;
+    }
+  
+    .user-username-text {
+      color: #94a3b8;
+      font-size: 12px;
+    }
+  }
+
+
+  .status-btn {
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 12px;
+    font-weight: 600;
+  
+    &.active {
+      background: #ecfdf5;
+      color: #16a34a;
+    }
+  
+    &.inactive {
+      background: #fef2f2;
+      color: #dc2626;
+    }
+  }
+
+  .role-tag {
+    border-radius: 20px;
+    padding: 3px 10px;
+    background: #eff6ff;
+    color: #2563eb;
+    border: none;
+  }
+
+  .inactive-row {
+    td {
+      background: #fff5f5 !important;
+    }
+  
+    td:last-child {
+      border-right: 4px solid #ef4444;
+    }
+  }
+
+  .action-group {
+    display: flex;
+    gap: 6px;
+  
+    .ant-btn {
+      border-radius: 8px;
+    }
+  }
